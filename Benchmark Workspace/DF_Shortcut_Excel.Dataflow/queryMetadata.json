@@ -23,33 +23,6 @@
       "id": "63bd7c79-3706-4073-8eb5-3b9557142503",
       "name": "Source",
       "description": ""
-    },
-    {
-      "id": "1c3684f7-d6fc-4271-aa4f-cf484709fd97",
-      "name": "Test",
-      "description": "",
-      "order": 1
-    },
-    {
-      "id": "113c26ad-63dd-48e2-8910-227700b23515",
-      "name": "IT Budget",
-      "description": "",
-      "parentId": "1c3684f7-d6fc-4271-aa4f-cf484709fd97",
-      "order": 2
-    },
-    {
-      "id": "d7286628-7d5b-482c-bf8c-905bc2f6d860",
-      "name": "HR Budget",
-      "description": "",
-      "parentId": "1c3684f7-d6fc-4271-aa4f-cf484709fd97",
-      "order": 2
-    },
-    {
-      "id": "0faddf37-a04e-4f7f-ae5f-fe5387c7a39a",
-      "name": "Accounting Budget",
-      "description": "",
-      "parentId": "1c3684f7-d6fc-4271-aa4f-cf484709fd97",
-      "order": 2
     }
   ],
   "documentLocale": "en-US",
@@ -88,71 +61,6 @@
       "queryName": "Source",
       "queryGroupId": "63bd7c79-3706-4073-8eb5-3b9557142503",
       "loadEnabled": false
-    },
-    "Financial Budget Informations": {
-      "queryId": "c142e72b-e676-4c71-9a2d-2fc28bec0154",
-      "queryName": "Financial Budget Informations",
-      "queryGroupId": "1c3684f7-d6fc-4271-aa4f-cf484709fd97"
-    },
-    "IT Budget (2022)": {
-      "queryId": "2f937242-5d0b-4e13-8372-edb7e9ad2877",
-      "queryName": "IT Budget (2022)",
-      "queryGroupId": "113c26ad-63dd-48e2-8910-227700b23515"
-    },
-    "IT Budget (2023)": {
-      "queryId": "ae2ad31f-a083-479e-90db-94ff485dfeec",
-      "queryName": "IT Budget (2023)",
-      "queryGroupId": "113c26ad-63dd-48e2-8910-227700b23515"
-    },
-    "IT Budget (Delta)": {
-      "queryId": "053447f2-0788-4728-b25c-77c8c58f3813",
-      "queryName": "IT Budget (Delta)",
-      "queryGroupId": "113c26ad-63dd-48e2-8910-227700b23515"
-    },
-    "IT Budget Informations": {
-      "queryId": "16de4274-9d9d-488b-8ea7-2ddc353a79c6",
-      "queryName": "IT Budget Informations",
-      "queryGroupId": "113c26ad-63dd-48e2-8910-227700b23515"
-    },
-    "HR Budget (2022)": {
-      "queryId": "d6f2d1a2-ed68-49dc-b8ce-2133ebedce97",
-      "queryName": "HR Budget (2022)",
-      "queryGroupId": "d7286628-7d5b-482c-bf8c-905bc2f6d860"
-    },
-    "HR Budget (2023)": {
-      "queryId": "369605d1-3986-4627-abd9-8d51e83deafa",
-      "queryName": "HR Budget (2023)",
-      "queryGroupId": "d7286628-7d5b-482c-bf8c-905bc2f6d860"
-    },
-    "HR Budget (Delta)": {
-      "queryId": "48dd4e5f-9f80-47c0-9ef7-da4f6836a331",
-      "queryName": "HR Budget (Delta)",
-      "queryGroupId": "d7286628-7d5b-482c-bf8c-905bc2f6d860"
-    },
-    "HR Budget Informations": {
-      "queryId": "027afc14-25bd-4b49-92ea-0d105933a6db",
-      "queryName": "HR Budget Informations",
-      "queryGroupId": "d7286628-7d5b-482c-bf8c-905bc2f6d860"
-    },
-    "Accounting Budget (2022)": {
-      "queryId": "f4a66c80-4788-4ef6-9f42-1db908656263",
-      "queryName": "Accounting Budget (2022)",
-      "queryGroupId": "0faddf37-a04e-4f7f-ae5f-fe5387c7a39a"
-    },
-    "Accounting Budget (2023)": {
-      "queryId": "b45c5b4a-9f93-4a5e-9e65-3986ccd7f93c",
-      "queryName": "Accounting Budget (2023)",
-      "queryGroupId": "0faddf37-a04e-4f7f-ae5f-fe5387c7a39a"
-    },
-    "Accounting Budget (Delta)": {
-      "queryId": "37fdee06-935c-43e0-9df2-2821db0467c7",
-      "queryName": "Accounting Budget (Delta)",
-      "queryGroupId": "0faddf37-a04e-4f7f-ae5f-fe5387c7a39a"
-    },
-    "Accounting Budget Informations": {
-      "queryId": "1eebe24b-ab68-4023-9961-4e62b027cad4",
-      "queryName": "Accounting Budget Informations",
-      "queryGroupId": "0faddf37-a04e-4f7f-ae5f-fe5387c7a39a"
     },
     "Financial Budget Data_DataDestination": {
       "queryId": "d9e5fb58-fab8-4b42-aeb5-92a892a0d756",
