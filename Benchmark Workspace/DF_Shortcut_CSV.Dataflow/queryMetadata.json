@@ -1,0 +1,79 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowPartitionedCompute": true,
+    "allowModernEvaluationEngine": true
+  },
+  "name": "DF_Shortcut_CSV",
+  "queryGroups": [
+    {
+      "id": "8d0b1db8-08f9-41fd-985b-ac572c5a01f8",
+      "name": "Transform file from Query",
+      "description": "",
+      "order": 1
+    },
+    {
+      "id": "2e17d16f-f3cd-4cda-b197-2cb41fbdd49a",
+      "name": "Helper queries",
+      "description": "",
+      "parentId": "8d0b1db8-08f9-41fd-985b-ac572c5a01f8",
+      "order": 2
+    },
+    {
+      "id": "4fc7097f-8afa-4f7b-9580-ba8ac534f6aa",
+      "name": "Source",
+      "description": ""
+    }
+  ],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "Source": {
+      "queryId": "2b37ca83-afec-45c4-b58c-e161a422f12d",
+      "queryName": "Source",
+      "queryGroupId": "4fc7097f-8afa-4f7b-9580-ba8ac534f6aa",
+      "loadEnabled": false
+    },
+    "Transform Sample file": {
+      "queryId": "9c10a2ad-80fa-4700-8cfd-192b9ac6ad7c",
+      "queryName": "Transform Sample file",
+      "queryGroupId": "8d0b1db8-08f9-41fd-985b-ac572c5a01f8",
+      "loadEnabled": false
+    },
+    "Sample file": {
+      "queryId": "19145ec4-2830-44db-bb55-c8ce3551103b",
+      "queryName": "Sample file",
+      "queryGroupId": "2e17d16f-f3cd-4cda-b197-2cb41fbdd49a",
+      "loadEnabled": false
+    },
+    "Parameter": {
+      "queryId": "9c8ee5a3-74ed-4749-acd3-c8be4c773fab",
+      "queryName": "Parameter",
+      "queryGroupId": "2e17d16f-f3cd-4cda-b197-2cb41fbdd49a",
+      "loadEnabled": false
+    },
+    "Transform file": {
+      "queryId": "c69addd7-30bf-48cc-b8e0-2ca66811775e",
+      "queryName": "Transform file",
+      "queryGroupId": "2e17d16f-f3cd-4cda-b197-2cb41fbdd49a",
+      "loadEnabled": false
+    },
+    "CSV Financial Data": {
+      "queryId": "93b6985a-1fca-43d3-a903-8f62083625e6",
+      "queryName": "CSV Financial Data",
+      "loadEnabled": false
+    },
+    "CSV Financial Data_DataDestination": {
+      "queryId": "89b686b3-45f0-4c48-9814-991229072989",
+      "queryName": "CSV Financial Data_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"159a49b5-f492-45c8-8fe6-79cf2576a077\",\"DatasourceId\":\"fc2ef332-21f5-4aac-a1cc-33332f820146\"}"
+    }
+  ]
+}

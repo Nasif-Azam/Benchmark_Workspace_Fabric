@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "DF_Shortcut_Excel"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "92d2fb8c-2ebd-8e3e-4713-84c236c8a627"
+  }
+}
